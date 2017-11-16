@@ -10,5 +10,5 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require sal7711_web/application
+//= require sal7711_ld/application
 //= require_tree .

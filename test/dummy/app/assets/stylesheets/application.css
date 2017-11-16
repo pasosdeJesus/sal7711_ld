@@ -11,6 +11,6 @@
  * file per style scope.
  *
  *= require_tree .
- *= require sal7711_web/application.css
+ *= require sal7711_ld/application.css
  *= require_self
  */

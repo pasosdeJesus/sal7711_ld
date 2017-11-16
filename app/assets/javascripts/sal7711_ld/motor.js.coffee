@@ -8,11 +8,11 @@
 #//= require jquery-ui/widgets/autocomplete
 #//= require cocoon
 
-@sal7711_web_prepara_eventos_comunes = (root) ->
+@sal7711_ld_prepara_eventos_comunes = (root) ->
   sal7711_gen_prepara_eventos_comunes(root)
   return
 
 
-@sal7711_web_prepara_eventos_unicos = (root) ->
+@sal7711_ld_prepara_eventos_unicos = (root) ->
 
   return

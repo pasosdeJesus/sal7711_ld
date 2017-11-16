@@ -6,7 +6,7 @@ require "sal7711_ld/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "sal7711_ld"
-  s.version     = Sal7711Web::VERSION
+  s.version     = Sal7711Ld::VERSION
   s.authors     = ["Vladimir Támara Patiño"]
   s.email       = ["vtamara@pasosdeJesus.org"]
   s.homepage    = "http://sivel.sf.net"

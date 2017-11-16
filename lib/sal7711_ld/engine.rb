@@ -3,9 +3,9 @@
 require 'sal7711_gen/engine'
 require 'font-awesome-rails'
 
-module Sal7711Web
+module Sal7711Ld
   class Engine < ::Rails::Engine
-    isolate_namespace Sal7711Web
+    isolate_namespace Sal7711Ld
 
     config.generators do |g|
       g.test_framework      :minitest, spec:true, :fixture => false

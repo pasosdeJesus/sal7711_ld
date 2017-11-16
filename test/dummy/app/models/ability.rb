@@ -1,5 +1,5 @@
 # encoding: UTF-8
-class Ability  < Sal7711Web::Ability
+class Ability  < Sal7711Ld::Ability
 
   # Autorizaciones con CanCanCan
   def initialize(usuario = nil)

@@ -1,4 +1,4 @@
-require "sal7711_web/engine"
+require "sal7711_ld/engine"
 
-module Sal7711Web
+module Sal7711Ld
 end

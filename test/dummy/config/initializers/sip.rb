@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-require 'sal7711_web/version'
+require 'sal7711_ld/version'
 
 Sip.setup do |config|
       config.ruta_anexos = "#{Rails.root}/archivos/"
@@ -9,5 +9,5 @@ Sip.setup do |config|
       if !ENV["HEROKU_POSTGRESQL_GREEN_URL"].nil?
         config.ruta_anexos = "#{Rails.root}/tmp/"
       end
-      config.titulo = "Sal7711 - WEB " + Sal7711Web::VERSION
+      config.titulo = "Sal7711 - WEB " + Sal7711Ld::VERSION
 end

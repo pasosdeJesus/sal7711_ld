@@ -12,7 +12,7 @@
 //
 //= require sip/motor
 //= require sal7711_gen/motor
-//= require sal7711_web/motor
+//= require sal7711_ld/motor
 //= require chosen-jquery
 //= require_tree .
 
@@ -22,7 +22,7 @@ $(document).on('turbolinks:load ready page:load', function() {
 		exports : window;
 	sip_prepara_eventos_comunes(root, true);
 	sal7711_gen_prepara_eventos_comunes(root);
-	sal7711_web_prepara_eventos_comunes(root);
-	sal7711_web_prepara_eventos_unicos(root);
+	sal7711_ld_prepara_eventos_comunes(root);
+	sal7711_ld_prepara_eventos_unicos(root);
 });
 

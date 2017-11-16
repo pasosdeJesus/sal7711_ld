@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-module Sal7711Web
+module Sal7711Ld
   module ApplicationHelper
 
     include ::FontAwesome::Rails::IconHelper

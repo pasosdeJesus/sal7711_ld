@@ -2,7 +2,7 @@
 
 require 'sal7711_gen/concerns/models/articulo'
 
-module Sal7711Web
+module Sal7711Ld
   module Concerns
     module Models
       module Articulo

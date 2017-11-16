@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+        - 2.4.1
+addon:
+        postgresql: '9.6'
+notifications:
+        email: false
+script: bundle exec rails test
+env:
+        global:
+                - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install: 
+        - sudo locale-gen --no-archive es_CO.UTF-8
+        - sudo /etc/init.d/postgresql stop
+        - sudo /etc/init.d/postgresql start 9.6
+        - cd test/dummy
+        - psql -c 'CREATE DATABASE sal7711web_pru;' -U postgres
+        - bundle install
+        - cp config/database.travis.yml config/database.yml
+        - rake db:setup
+        - rake sip:indices
+        - cd ../..
+

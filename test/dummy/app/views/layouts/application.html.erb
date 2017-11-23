@@ -9,8 +9,8 @@
 <% content_for :menu do %>
   <%= menu_group do %>
     <% if !current_usuario.nil? %>
-      <%= menu_item "Buscar", sal7711_gen.buscar_path %>
-      <%= menu_item "Nuevo Artículo", sal7711_gen.new_articulo_path%>
+      <%= menu_item "Buscar", sal7711_ld.articulos_path %>
+      <%= menu_item "Nueva Publicación", sal7711_ld.new_articulo_path%>
     <% end %>
   <% end %>
   <%= menu_group :pull => :right do %>

@@ -14,12 +14,10 @@ Rails.application.routes.draw do
   end
   resources :usuarios, path_names: { new: 'nuevo', edit: 'edita' } 
 
-  #patch "/actos/agregar" => 'sal7711_ld/actos#agregar'
-  #get "/actos/eliminar" => 'sal7711_ld/actos#eliminar'
-  
   root 'sip/hogar#index'
   mount Sal7711Ld::Engine, at: "/", as: "sal7711_ld"
-  mount Sal7711Gen::Engine, at: "/", as: "sal7711_gen"
+ # mount Sal7711Web::Engine, at: "/", as: "sal7711_web"
+ # mount Sal7711Gen::Engine, at: "/", as: "sal7711_gen"
   mount Sip::Engine, at: "/", as: "sip"
 
   namespace :admin do

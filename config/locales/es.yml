@@ -4,6 +4,7 @@ es:
     fechadeshabilitacion: Deshabilitación 
   activerecord:
     attributes:
-      "sal7711_ld/acto":
-        presponsable: Agente de Persecución
+      "sal7711_gen/articulo":
+        articulo: Publicacion
+        articulos: Publicaciones
 

@@ -102,9 +102,6 @@ group :test do
   gem "connection_pool"
   gem "minitest-reporters" 
 
-  # Maneja datos de prueba
-  gem "factory_girl_rails", group: [:development, :test]
-
   # https://www.relishapp.com/womply/rails-style-guide/docs/developing-rails-applications/bundler
   # Lanza programas para examinar resultados
   gem "launchy"

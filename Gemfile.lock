@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: f44c1298d7feb37978f2275eb48b076a94fb8db7
+  revision: 961e34dfed095fb7fba268650392f8bb141a0376
   specs:
     sip (2.0.b4)
       bootstrap-datepicker-rails
@@ -95,7 +95,7 @@ GEM
     builder (3.2.3)
     callsite (0.0.11)
     camertron-eprun (1.1.1)
-    cancancan (2.1.1)
+    cancancan (2.1.2)
     chosen-rails (1.5.2)
       coffee-rails (>= 3.2)
       railties (>= 3.0)
@@ -129,11 +129,6 @@ GEM
     docile (1.1.5)
     erubi (1.7.0)
     execjs (2.7.0)
-    factory_girl (4.9.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
-      railties (>= 3.0.0)
     ffi (1.9.18)
     font-awesome-rails (4.7.0.2)
       railties (>= 3.2, < 5.2)
@@ -179,7 +174,7 @@ GEM
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.10.3)
-    minitest-reporters (1.1.18)
+    minitest-reporters (1.1.19)
       ansi
       builder
       minitest (>= 5.0)
@@ -210,11 +205,11 @@ GEM
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
     public_suffix (3.0.1)
-    puma (3.10.0)
+    puma (3.11.0)
     rack (2.0.3)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
-    rack-test (0.8.0)
+    rack-test (0.8.2)
       rack (>= 1.0, < 3)
     rails (5.1.4)
       actioncable (= 5.1.4)
@@ -335,7 +330,6 @@ DEPENDENCIES
   connection_pool
   devise
   devise-i18n
-  factory_girl_rails
   font-awesome-rails
   jbuilder
   jquery-rails

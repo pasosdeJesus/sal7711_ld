@@ -212,8 +212,8 @@ CREATE TABLE sal7711_gen_articulo (
     id integer NOT NULL,
     departamento_id integer,
     municipio_id integer,
-    fuenteprensa_id integer NOT NULL,
-    fecha date NOT NULL,
+    fuenteprensa_id integer,
+    fecha date,
     pagina character varying(20),
     created_at timestamp without time zone NOT NULL,
     updated_at timestamp without time zone NOT NULL,
@@ -225,7 +225,9 @@ CREATE TABLE sal7711_gen_articulo (
     anexo_id_antiguo integer,
     adjunto_descripcion character varying(1500),
     url character varying(5000),
-    pais_id integer
+    pais_id integer,
+    titulo character varying(1024),
+    observaciones character varying(5000)
 );
 
 
@@ -1473,6 +1475,7 @@ INSERT INTO "schema_migrations" (version) VALUES
 ('20161212175928'),
 ('20170405104322'),
 ('20170413185012'),
-('20170414035328');
+('20170414035328'),
+('20171123212504');
 
 

@@ -75,8 +75,8 @@ gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git'
 #gem 'sip', path: '../sip'
 
 # Motor de Sal7711
-#gem 'sal7711_gen', git: 'https://github.com/pasosdeJesus/sal7711_gen.git'
-gem 'sal7711_gen', path: '../sal7711_gen'
+gem 'sal7711_gen', git: 'https://github.com/pasosdeJesus/sal7711_gen.git'
+#gem 'sal7711_gen', path: '../sal7711_gen'
 
 # Motor de Sal7711_web
 gem 'sal7711_web', git: 'https://github.com/pasosdeJesus/sal7711_web.git'

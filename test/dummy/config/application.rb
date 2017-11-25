@@ -30,8 +30,11 @@ module Dummy
 
     config.x.url_colchon = 'colchon-articulos'
 
-    FactoryGirl.definition_file_paths << Pathname.new("../factories") 
-    FactoryGirl.definition_file_paths.uniq! 
-    FactoryGirl.find_definitions
+    config.x.sal7711_presencia_adjunto = false 
+    config.x.sal7711_presencia_adjuntodesc = false 
+    config.x.sal7711_presencia_fuenteprensa = false
+    config.x.sal7711_presencia_fecha = false
+    config.x.sal7711_presencia_pagina = false
+
   end
 end

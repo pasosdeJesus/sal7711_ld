@@ -1,6 +1,14 @@
 GIT
+  remote: https://github.com/pasosdeJesus/sal7711_gen.git
+  revision: f3aa3fd9ef086f37a635ab23148eaafea1448c42
+  specs:
+    sal7711_gen (1.0.b1)
+      rails
+      sip
+
+GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: ed19cd85769abea5cb83d1dfe39560a598ec1f06
+  revision: 096c1234c0ed2bdca424f98efd4a72c1f1beed4a
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -33,13 +41,6 @@ GIT
   revision: 20f8f3bab2fee21309c57b586f5fab9921ac0894
   specs:
     cocoon (1.2.6)
-
-PATH
-  remote: ../sal7711_gen
-  specs:
-    sal7711_gen (1.0.b1)
-      rails
-      sip
 
 GEM
   remote: https://rubygems.org/

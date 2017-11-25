@@ -14,6 +14,9 @@ module Sal7711Ld
             class_name: 'Sip::Pais'
 
           validates :pagina, presence: false, length: { maximum: 20 } 
+          def presencia_fecha
+            false
+          end
         end
 
         module ClassMethods

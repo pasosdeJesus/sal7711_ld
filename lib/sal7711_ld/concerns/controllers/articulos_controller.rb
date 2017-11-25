@@ -11,6 +11,24 @@ module Sal7711Ld
 
         included do
 
+
+          def genclase
+            return 'F';
+            # publicacion es como se usa en cor1440_cinep tras cambiar
+            # config/locale/es.yml que debe portarse aqui
+          end
+
+          def index_reordenar(c)
+            c.reorder([:titulo])
+          end
+
+          # Campos de la tabla por presentar en listado 
+          def atributos_index
+            ["id", 'titulo',
+             'url', 'observaciones',
+             "fechacreacion_localizada", "fechadeshabilitacion_localizada"]
+          end
+
           def gen_descripcion_pagina_bd(articulo)
             return ""
           end
@@ -43,6 +61,8 @@ module Sal7711Ld
               #        :pagina,
               :url,
               :texto,
+              :observaciones,
+              :titulo,
               :adjunto_descripcion, 
               :adjunto,
               :archivo, 

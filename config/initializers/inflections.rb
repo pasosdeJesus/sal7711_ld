@@ -16,4 +16,5 @@
 # end
 ActiveSupport::Inflector.inflections do |inflect|
 	#inflect.irregular 'actosjr', 'actosjr'
+	inflect.irregular 'publicacion', 'publicaciones'
 end

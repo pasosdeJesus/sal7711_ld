@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 5c102b1e6e46b3fd2ba073224a8a24221dc57522
+  revision: 69bf52b3880a46fe0624f1bea7195ecd728445f3
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 9242ce221ee21b53ebc29296e465c9b3b19f6fdc
+  revision: 98c8c884eb7d5338b70b65bbe367e0c02d945cf2
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: c0fc94e453c1719c83b762b4e1e3df4fe86bf864
+  revision: 5bfcd031b58d312844fd43b4baeffb26ac686440
   specs:
     sip (2.0.b4)
       bootstrap-datepicker-rails
@@ -147,7 +147,7 @@ GEM
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
     json (2.1.0)
-    kgio (2.11.0)
+    kgio (2.11.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     less (2.6.0)
@@ -251,7 +251,7 @@ GEM
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
     ruby-progressbar (1.9.0)
-    sass (3.5.3)
+    sass (3.5.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)

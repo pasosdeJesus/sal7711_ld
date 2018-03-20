@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 3e263bf731d9a286a0f493c46dabbf86f5b4b838
+  revision: 5fd8826670bd458072c51ef72ca3e693950fd5d4
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: bdf1b4d5f04cc3e11f26989e785dc5cd276fd4b0
+  revision: bb326db7646b5b8127b839728995cd57f45c3943
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 916f6c010b55bb426f2d0cc4cdb390a279d8ef3e
+  revision: 743da820744d0ef727c7a6f77bff2f20403c5cff
   specs:
     sip (2.0.b4)
       bootstrap-datepicker-rails
@@ -155,7 +155,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    loofah (2.2.0)
+    loofah (2.2.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.0)

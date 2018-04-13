@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 209d2db311076fef7df6154514276132c1d4fd87
+  revision: 66f7ce0f00a67944a055bdae9415337512adff58
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -104,9 +104,10 @@ GIT
 
 GIT
   remote: https://github.com/vtamara/cocoon.git
-  revision: 20f8f3bab2fee21309c57b586f5fab9921ac0894
+  revision: f8fbad8d9d6bb087223221d70733b58a3d2efd8a
+  branch: new_id_with_ajax
   specs:
-    cocoon (1.2.6)
+    cocoon (1.2.11)
 
 GEM
   remote: https://rubygems.org/

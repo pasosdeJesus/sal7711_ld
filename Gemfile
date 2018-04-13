@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 # Rails (internacionalización)
-gem "rails", '~> 5.1.0'
+gem "rails", '~> 5.2.0'
 gem "rails-i18n"
+
+gem 'bootsnap', '>=1.1.0', require: false
 
 # Postgresql
 gem "pg", '~> 0.21'
@@ -68,18 +70,17 @@ gem "paperclip"
 
 # Zonas horarias
 gem "tzinfo"
-gem "tzinfo-data"
 
 # Motor de sistemas de información estilo Pasos de Jesús
-gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git'
+gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git', branch: 'rails5.2'
 #gem 'sip', path: '../sip'
 
 # Motor de Sal7711
-gem 'sal7711_gen', git: 'https://github.com/pasosdeJesus/sal7711_gen.git'
+gem 'sal7711_gen', git: 'https://github.com/pasosdeJesus/sal7711_gen.git', branch: 'rails5.2'
 #gem 'sal7711_gen', path: '../sal7711_gen'
 
 # Motor de Sal7711_web
-gem 'sal7711_web', git: 'https://github.com/pasosdeJesus/sal7711_web.git'
+gem 'sal7711_web', git: 'https://github.com/pasosdeJesus/sal7711_web.git', branch: 'rails5.2'
 #gem 'sal7711_web', path: '../sal7711_web'
 
 

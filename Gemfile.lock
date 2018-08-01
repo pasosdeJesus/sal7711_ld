@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 611092ace83cc479d809c9eb5d8126a760df4085
+  revision: e335e56454b5746f3ba7cd341d71517d38c35535
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: c1636d1970ae4bdaa2276c90ecd03956977c2213
+  revision: 1e9a8b66c048c36b420e0bac7090dbb681eb90a7
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: d1d5796ef8d719963ac45d388f081cf7e87e4b1f
+  revision: 5b760d415ff3de52a75fb75f45afeb2401f3e8f9
   specs:
     sip (2.0.b5)
       bootstrap-datepicker-rails
@@ -206,7 +206,7 @@ GEM
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    minitest-reporters (1.3.0)
+    minitest-reporters (1.3.1)
       ansi
       builder
       minitest (>= 5.0)
@@ -217,7 +217,7 @@ GEM
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
-    paperclip (6.0.0)
+    paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
       mime-types
@@ -242,7 +242,7 @@ GEM
     rack (2.0.5)
     rack-contrib (2.0.1)
       rack (~> 2.0)
-    rack-test (1.0.0)
+    rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
@@ -266,7 +266,7 @@ GEM
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
     ruby-progressbar (1.9.0)
-    sass (3.5.6)
+    sass (3.5.7)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -314,9 +314,9 @@ GEM
       tzinfo
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.15)
+    uglifier (4.1.17)
       execjs (>= 0.3.0, < 3)
-    unicorn (5.4.0)
+    unicorn (5.4.1)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     warden (1.2.7)
@@ -380,4 +380,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.16.1
+   1.16.3

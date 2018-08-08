@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: e335e56454b5746f3ba7cd341d71517d38c35535
+  revision: 933c5c3af2e539f3fb2737a0ebe1ee0a0616aefe
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 1e9a8b66c048c36b420e0bac7090dbb681eb90a7
+  revision: 5058215620050bce0bb821ef37ef9f370422d1f2
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -164,7 +164,7 @@ GEM
       railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.0.1)
+    i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     interception (0.5)
     jbuilder (2.7.0)
@@ -265,7 +265,7 @@ GEM
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
-    ruby-progressbar (1.9.0)
+    ruby-progressbar (1.10.0)
     sass (3.5.7)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 61cde2e71fc155035ea5f2b4399794ffb5018daa
+  revision: 4a80df4fb2dc95348c1d910847538c5040b321cc
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: b43e00639c6301197b841f91c41e336364f17bb0
+  revision: fccc0aaaae4c6f61bdf54decd5f493de644edca0
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 40a9bf5f347a1c61a62f726f5d32eba2fd064960
+  revision: b580b19677793bd6b62ea5ec5755d9756058d162
   specs:
     sip (2.0.b5)
       bootstrap-datepicker-rails
@@ -135,12 +135,12 @@ GEM
     docile (1.3.1)
     erubi (1.8.0)
     execjs (2.7.0)
-    ffi (1.9.25)
+    ffi (1.10.0)
     font-awesome-rails (4.7.0.4)
       railties (>= 3.2, < 6.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (1.4.0)
+    i18n (1.5.1)
       concurrent-ruby (~> 1.0)
     interception (0.5)
     jbuilder (2.8.0)
@@ -187,7 +187,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    msgpack (1.2.4)
+    msgpack (1.2.6)
     multi_json (1.13.1)
     nio4r (2.3.1)
     nokogiri (1.10.0)
@@ -376,4 +376,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   1.17.3
+   2.0.1

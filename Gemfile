@@ -12,7 +12,7 @@ gem 'bootsnap', '>=1.1.0', require: false
 gem 'bigdecimal'
 
 # Postgresql
-gem "pg", '~> 0.21'
+gem "pg"
 
 gem 'puma'
 

@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: e6952c40e23fac5ed89dc80b3a59afd439a23592
+  revision: 3b198485f821a1db6ea93d98163662af5ffa3caa
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: https://github.com/vtamara/cocoon.git
-  revision: 9d29a8abcc5b6ed9aefcad85ca54dd1364262583
+  revision: f1c8458db49f388d0f1f02e98d04e8c23c131bb9
   branch: new_id_with_ajax
   specs:
     cocoon (1.2.11)

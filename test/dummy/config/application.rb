@@ -36,5 +36,7 @@ module Dummy
     config.x.sal7711_presencia_fecha = false
     config.x.sal7711_presencia_pagina = false
 
+    config.hosts << ENV['CONFIG_HOSTS'] ? ENV['CONFIG_HOSTS'] : '127.0.0.1' 
+
   end
 end

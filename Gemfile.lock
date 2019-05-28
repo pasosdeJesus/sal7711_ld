@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: be604b99a9e34721a6cfa48f462d0e92f547b993
-  branch: rails6
+  revision: 89631aafce75391f11754c645b5e5e2ff9373d39
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -9,8 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 4b26423a00fe2e9a0a71787446ac35d10601dd42
-  branch: rails6
+  revision: 37c2a7b226871cb228f49f6498f0c710cae66da9
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -18,10 +16,9 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 4cc04f789f0a19939b812210e33b8e5ed6363cb2
-  branch: rails6
+  revision: c42f4b6128c4e2f7889ea7c7c8767210d4d8b76d
   specs:
-    sip (2.0.b5)
+    sip (2.0.b6)
       bootstrap-datepicker-rails
       cancancan
       chosen-rails
@@ -232,7 +229,7 @@ GEM
     pry-stack_explorer (0.4.9.3)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     puma (3.12.1)
     rack (2.0.7)
     rack-contrib (2.1.0)
@@ -283,7 +280,7 @@ GEM
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
       railties (>= 4.2.0, < 6.0)
-    ruby-progressbar (1.10.0)
+    ruby-progressbar (1.10.1)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)

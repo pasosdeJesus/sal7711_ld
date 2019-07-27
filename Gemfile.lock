@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 2dabdaec620305d1ea1f61618ce72bee8c4c2635
+  revision: 7722375f1e0d9081a023fd52cd03ccee76daeb70
   specs:
     sal7711_gen (1.0.b2)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 4ccdc3867d4cb5f9f6069c1ffa1b629d117fc83e
+  revision: f608809555a495ae77bd30719aa2db445225ca85
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: d4f9c932c91990455535d06609782bd182cbb76c
+  revision: 0c581406a721807cc57267967509dfe031135f88
   specs:
     sip (2.0.b6)
       bootstrap-datepicker-rails
@@ -278,7 +278,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.20.3, < 2.0)
     raindrops (0.19.0)
-    rake (12.3.2)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -409,4 +409,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

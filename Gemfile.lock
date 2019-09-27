@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 0f8616d4f05de69776d624edc5e882b7a27fe970
+  revision: 9d04acc777bd240e63ce69c2ab8ded069b53f57b
   specs:
     sal7711_gen (1.0.b2)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: ec7a8a299720371137673c625b3bfad486455756
+  revision: 2ba5e8d6bba82cc31e46a56b76f0183458d7fe5f
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -276,7 +276,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.20.3, < 2.0)
     raindrops (0.19.0)
-    rake (12.3.3)
+    rake (13.0.0)
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)

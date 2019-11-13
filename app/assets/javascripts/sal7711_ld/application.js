@@ -13,10 +13,9 @@
 //= require sip/motor
 //= require sal7711_gen/motor
 //= require sal7711_ld/motor
-//= require chosen-jquery
 //= require_tree .
 
-$(document).on('turbolinks:load ready page:load', function() {
+document.addEventListener('turbolinks:load', function() {
 	var root;
 	root = typeof exports !== "undefined" && exports !== null ? 
 		exports : window;

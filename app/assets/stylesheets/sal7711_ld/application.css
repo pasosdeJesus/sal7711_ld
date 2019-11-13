@@ -9,8 +9,6 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require jquery-ui
- *= require bootstrap-datepicker
  *= require sal7711_gen/application
  *= require_tree .
  */

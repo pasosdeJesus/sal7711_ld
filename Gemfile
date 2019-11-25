@@ -26,7 +26,7 @@ gem 'prawn' # Para generar PDF
 
 gem 'puma'
 
-gem 'rails', '6.0.0.rc1'
+gem 'rails', '~>6.0.0.rc1'
 
 gem 'rails-i18n'
 
@@ -48,15 +48,15 @@ gem 'will_paginate' # Listados en páginas
 # lógico y no alfabetico como las gemas anteriores) 
 
 gem 'sip', # Motor generico
-  git: 'https://github.com/pasosdeJesus/sip.git', branch: :bs4
+  git: 'https://github.com/pasosdeJesus/sip.git'
   #path: '../sip'
 
 gem 'sal7711_gen', # Motor de archivo de prensa
-  git: 'https://github.com/pasosdeJesus/sal7711_gen.git', branch: :bs4
+  git: 'https://github.com/pasosdeJesus/sal7711_gen.git'
   #path: '../sal7711_gen'
 
 gem 'sal7711_web',  # Motor de archivo web
-  git: 'https://github.com/pasosdeJesus/sal7711_web.git', branch: :bs4
+  git: 'https://github.com/pasosdeJesus/sal7711_web.git'
   #path: '../sal7711_web'
 
 

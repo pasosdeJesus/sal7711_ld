@@ -24,7 +24,7 @@ gem 'pg' # Postgresql
 
 gem 'prawn' # Para generar PDF
 
-gem 'puma'
+gem 'puma', '>= 4.3.1'
 
 gem 'rails', '~>6.0.0.rc1'
 

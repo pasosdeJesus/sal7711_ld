@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 80aad04aea5ca160ff891ef48aef4768779256a5
+  revision: 83c1f3614edb7409b5585f54117b0af6c0dc74ab
   specs:
     sal7711_gen (1.0.b2)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: bb750448dcc51c50d698d57078e6aa4bf62a693f
+  revision: 6a77365a0596ee3e46c5026e389d3ab7aa670121
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 68ee4ce6e579273441018224df28149c484cb829
+  revision: 43ac74a06b7568cc2886d6d648f5d527c411e2c1
   specs:
     sip (2.0.b10)
       cancancan
@@ -179,7 +179,7 @@ GEM
       mimemagic (~> 0.3.0)
       terrapin (~> 0.6.0)
     pdf-core (0.7.0)
-    pg (1.2.2)
+    pg (1.2.3)
     prawn (2.2.2)
       pdf-core (~> 0.7.0)
       ttfunk (~> 1.5)

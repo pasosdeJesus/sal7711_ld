@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: e3d60407016e33aa82d19b8d1df49dfc161d6da0
+  revision: 4224752940f549b894b1bb992feb7dbf7ca48018
   specs:
     sal7711_gen (1.0.b3)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: df0a67f31e92e932fe733df38105c78b1840af38
+  revision: 3fc10e36adfdecf649d1f158d80c3ef40189d5bb
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -263,7 +263,7 @@ GEM
       tzinfo
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    unicorn (5.5.5)
+    unicorn (5.6.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     warden (1.2.8)

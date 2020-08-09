@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: c5283ee351468bca01aca6a72e29cd7e84cf4704
+  revision: d1e03faa7ee4fde2335914366e873cf19734bfcd
   specs:
     sal7711_gen (1.0.b3)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 82857c2c2290df3b1ceace07d700c07e0acdda70
+  revision: b15bbf4563f90c6cd270c2f45949660dc6e9aee3
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 56d2309d8f04c4667097303a2260570c129b4d28
+  revision: f7cf3731632a57884e645b2e544c683790d066e1
   specs:
     sip (2.0.b10)
       cancancan
@@ -120,7 +120,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     colorize (0.8.1)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
     crass (1.0.6)
     devise (4.7.2)

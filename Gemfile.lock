@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 0cca0758c482fdae41b5f716ee011a1a3c08f82a
+  revision: 219d9a93ba92902a763497572ac666f02a386903
   specs:
     sal7711_gen (1.0.b3)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: aa5cedd9d17157b4d5b0b555710d3f0196890960
+  revision: 23ee2e2d9d830e8d498ce4242394e9bdb37a8c0d
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 9e48233363e3552ea2e4eb64992fbbffd78c5ac5
+  revision: 2288291f0bc895af07f0c295324bcc9c8bc2631e
   specs:
     sip (2.0.b10)
       cancancan
@@ -98,7 +98,7 @@ GEM
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
     ansi (1.5.0)
-    bcrypt (3.1.15)
+    bcrypt (3.1.16)
     bigdecimal (2.0.0)
     bindex (0.8.1)
     bootsnap (1.4.8)
@@ -168,7 +168,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     msgpack (1.3.3)
-    nio4r (2.5.2)
+    nio4r (2.5.3)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
@@ -183,7 +183,7 @@ GEM
     prawn (2.3.0)
       pdf-core (~> 0.8.1)
       ttfunk (~> 1.6)
-    puma (4.3.5)
+    puma (4.3.6)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-contrib (2.2.0)

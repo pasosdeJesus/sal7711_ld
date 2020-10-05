@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: fbf00af3b87a6b073e1b52814f39d641f42b6065
+  revision: b4bbddc0a7bc01158ee835a1bc9722107c7319ab
   specs:
     sal7711_gen (1.0.b3)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: d2cdfcfdb77670b76e1762f2b0c569b09c0c8f4c
+  revision: 003aa05ac85de409fde9015c777fa2928d0d3f6e
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 9cb0829dc2a59726c26107c5e3dc07c0fa3be2de
+  revision: 78877560abaf9ed806c54fdc401c6f6ff5a4578e
   specs:
     sip (2.0.b10)
       cancancan
@@ -183,7 +183,7 @@ GEM
     prawn (2.3.0)
       pdf-core (~> 0.8.1)
       ttfunk (~> 1.6)
-    puma (5.0.0)
+    puma (5.0.2)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-contrib (2.2.0)
@@ -236,7 +236,7 @@ GEM
       sprockets-rails
       tilt
     semantic_range (2.3.0)
-    simple_form (5.0.2)
+    simple_form (5.0.3)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
     simplecov (0.19.0)
@@ -257,7 +257,7 @@ GEM
     thread_safe (0.3.6)
     tilt (2.0.10)
     ttfunk (1.6.2.1)
-    twitter_cldr (6.1.0)
+    twitter_cldr (6.2.0)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
       tzinfo

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: dd145cbe88b7e74146409dc92b78db383ced2140
+  revision: e5ce71589027abf670e67797fd920d0fcd7f1b1b
   specs:
     sal7711_gen (1.0.b3)
       rails
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: cd384fbe0be13ab99f1ac19870a4295a2d3bc96d
+  revision: 9151066a8e916a188805fd1cd528f1f88348e08d
   specs:
     sal7711_web (1.0.a3)
       rails
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 78cb44e701aba2f608219d30d8e7c230d02bb93a
+  revision: 3050aa4f2c5ac4ca0e3908ce3fa56a8fe5e80a34
   specs:
     sip (2.0.b10)
       cancancan
@@ -184,7 +184,7 @@ GEM
     prawn (2.3.0)
       pdf-core (~> 0.8.1)
       ttfunk (~> 1.6)
-    puma (5.0.3)
+    puma (5.0.4)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-contrib (2.2.0)
@@ -259,7 +259,7 @@ GEM
     thread_safe (0.3.6)
     tilt (2.0.10)
     ttfunk (1.6.2.1)
-    twitter_cldr (6.2.0)
+    twitter_cldr (6.3.0)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
       tzinfo
@@ -284,7 +284,7 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     will_paginate (3.3.0)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby

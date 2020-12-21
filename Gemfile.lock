@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 8974c7657b9070a9ba7fbe5c2c6fed10ee0d6e15
+  revision: 5e3bdd969eb8f1054a7509bcce3a5b173f74b12a
   branch: rails6.1
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: e670e0c2d5ec8c966a6f734b7647ddae0979a435
+  revision: 843ed609c15007626b6856da8ccda2487526fb9c
   branch: rails6.1
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 7162fbb2b0d6cbbdc4ac3e763709ad9108547dc0
+  revision: e83041f12689ab8b70a9e490543eab2ea5c40d5e
   branch: rails6.1
   specs:
     sip (2.0.b10)
@@ -230,7 +230,7 @@ GEM
       rake (>= 0.8.7)
       thor (~> 1.0)
     raindrops (0.19.1)
-    rake (13.0.2)
+    rake (13.0.3)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)

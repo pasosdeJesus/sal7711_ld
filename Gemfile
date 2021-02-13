@@ -26,8 +26,6 @@ gem 'pg' # Postgresql
 
 gem 'prawn' # Para generar PDF
 
-gem 'puma'
-
 gem 'rails', '~>6.0.3.4'
 
 gem 'rails-i18n'
@@ -50,26 +48,31 @@ gem 'will_paginate' # Listados en páginas
 # lógico y no alfabetico como las gemas anteriores) 
 
 gem 'sip', # Motor generico
-  git: 'https://github.com/pasosdeJesus/sip.git', branch: 'rails6.1'
+  git: 'https://github.com/pasosdeJesus/sip.git', branch: 'main'
   #path: '../sip'
 
 gem 'sal7711_gen', # Motor de archivo de prensa
-  git: 'https://github.com/pasosdeJesus/sal7711_gen.git', branch: 'rails6.1'
+  git: 'https://github.com/pasosdeJesus/sal7711_gen.git', branch: 'main'
   #path: '../sal7711_gen'
 
 gem 'sal7711_web',  # Motor de archivo web
-  git: 'https://github.com/pasosdeJesus/sal7711_web.git', branch: 'rails6.1'
+  git: 'https://github.com/pasosdeJesus/sal7711_web.git', branch: 'main'
   #path: '../sal7711_web'
 
 
 group :development do
-  
+  gem 'puma'
+
+  gem 'web-console' # Consola irb en páginas 
+end
+
+
+group :development, :test do
   #gem 'byebug' # Depurar
 
   gem 'colorize' # Colores en consola
 
-  gem 'web-console' # Consola irb en páginas 
-
+  gem 'dotenv-rails'
 end
 
 

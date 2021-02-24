@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 3bccef025de640e0f5c2cd86a497a3f33ba25da8
+  revision: ffcf24bc5f7db66f2cd70eb474165746eacbe8bf
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: f01292ee42aea36f03964f866d09ea95b22452db
+  revision: 90890eead4535569999556a6a10e7f36127f5b85
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: be494cc77f8a082f0e2a9c270450b66d79ba3231
+  revision: 1bdf7640bab2f73628460e9e501f15b1940cba25
   branch: main
   specs:
     sip (2.0.b11)
@@ -299,7 +299,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-openbsd
 
 DEPENDENCIES
   bcrypt
@@ -338,4 +338,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-   2.2.3
+   2.2.11

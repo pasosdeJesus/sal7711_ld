@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: f7eb25e52fd4bbc7c943f58d09f40eabde3c00d1
+  revision: 0638e30ca903c4de25ac6946ea9fd1e1cb96e88d
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 973d7e83ecb2072eb3fc3f3894ca67911522db79
+  revision: 0f15e758f9b45efd12e3a6cd414d18a59a9dcfd4
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 28814ac3577e7561f6186ad17e141fe1d9296cc1
+  revision: 193b1f68a6e7dd664b318fedc06d0f504f749402
   branch: main
   specs:
     sip (2.0.b11)
@@ -169,7 +169,7 @@ GEM
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0212)
+    mime-types-data (3.2021.0225)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)

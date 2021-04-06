@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 132cd6dfc9e850d2514f3db790b7bdbe42472781
+  revision: 86dc1daf73519729ddfd7e8a7719795e979986ec
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 56db3a3df7ca81a9d5a3e422bfbcc4ed2d130029
+  revision: 661a4410da8740b01a02f077934f2e502c845130
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: e887073f48429196c7a390d9b4553820c659d6d5
+  revision: c3b8119b2761ea252b14fb94d2de8792eb198be4
   branch: main
   specs:
     sip (2.0.b11)
@@ -148,7 +148,7 @@ GEM
     ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.8.9)
+    i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
@@ -161,7 +161,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.0)
+    marcel (1.0.1)
     meta_request (0.7.2)
       rack-contrib (>= 1.1, < 3)
       railties (>= 3.0.0, < 7)

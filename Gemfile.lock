@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: d9a2936d726707751ae9898d3da3c35e2f571829
+  revision: cf28afd4359dd675e889c1b360f440eea82fc34d
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 183cb24e62396e17ca92d6e6202037bd641a7c2c
+  revision: 039d4f2521989402ab05935af3c5885492614e11
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: e1149ec81e3d608586fa353e654d6b058239bb99
+  revision: c001af7e7681a0de8657df0211160ebe84d17e48
   branch: main
   specs:
     sip (2.0.b11)
@@ -106,7 +106,7 @@ GEM
       zeitwerk (~> 2.3)
     ansi (1.5.0)
     bcrypt (3.1.16)
-    bigdecimal (3.0.0)
+    bigdecimal (3.0.2)
     bindex (0.8.1)
     bootsnap (1.7.4)
       msgpack (~> 1.0)
@@ -130,7 +130,7 @@ GEM
     concurrent-ruby (1.1.8)
     connection_pool (2.2.5)
     crass (1.0.6)
-    devise (4.7.3)
+    devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)
@@ -173,7 +173,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.0.3)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     minitest (5.14.4)
     minitest-reporters (1.4.3)
       ansi

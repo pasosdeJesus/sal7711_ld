@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 078a8d4e9fe31af61b96923cc2749448fd9ca422
+  revision: 8fc06fec31d0ebf825cfe66d1bdaaf0b03f4c55c
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 8b61f86ef88ec21f02965a24b7945b6809caa055
+  revision: 537c8556fe86142bc2714fcb82fca77b3e37e7d4
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: b4f052c29979ddbced42ffae8ddc6eca0ce448d2
+  revision: 7ca0c690fbc156de098b598341506794ac2365a7
   branch: main
   specs:
     sip (2.0.b11)
@@ -197,7 +197,7 @@ GEM
     prawn (2.4.0)
       pdf-core (~> 0.9.0)
       ttfunk (~> 1.7)
-    puma (5.2.2)
+    puma (5.3.0)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)

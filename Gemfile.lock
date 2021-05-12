@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 74b8e4f88cae47978322b181c37d26bca49fd988
+  revision: 28cfb306b2d04feaf71e87b45a10ea502d0d33cb
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 1e1b5fb39e5ab755531b1d0fa7d3bdada449dec6
+  revision: fe5b69d2397a77d659b1568325b992ee38740035
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 2c7359c0b58784484a9cd5c03f86b0dc1fa846f4
+  revision: d65c021dd2502cf15728f503bf22b19f945bcb99
   branch: main
   specs:
     sip (2.0.b11)
@@ -138,7 +138,7 @@ GEM
       warden (~> 1.2.3)
     devise-i18n (1.9.4)
       devise (>= 4.7.1)
-    docile (1.3.5)
+    docile (1.4.0)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
       dotenv (= 2.7.6)
@@ -197,7 +197,7 @@ GEM
     prawn (2.4.0)
       pdf-core (~> 0.9.0)
       ttfunk (~> 1.7)
-    puma (5.3.0)
+    puma (5.3.1)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)

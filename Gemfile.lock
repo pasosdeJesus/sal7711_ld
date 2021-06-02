@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: a3ccba076450b992dee0043f1e65695131d72af4
+  revision: 40543f80065235aedaadae5facb6d6025ba07f03
   branch: main
   specs:
     sal7711_gen (1.0.b3)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 34b0e52bcc1a3b31730b68c8367ae34e09894a7d
+  revision: 82a83f1b414b360ee64fdb70bc6583a6d89f92b1
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 524bdfe93a18508882dff552fcf080c1e523578b
+  revision: c4a3b76592e9948cd7614cce12ca0e07e6d8b8ea
   branch: main
   specs:
     sip (2.0.b11)
@@ -173,7 +173,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.0.3)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     minitest-reporters (1.4.3)
       ansi
@@ -203,7 +203,7 @@ GEM
     rack (2.2.3)
     rack-contrib (2.3.0)
       rack (~> 2.0)
-    rack-proxy (0.6.5)
+    rack-proxy (0.7.0)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)

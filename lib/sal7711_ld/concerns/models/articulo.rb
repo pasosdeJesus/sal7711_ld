@@ -10,6 +10,10 @@ module Sal7711Ld
         include Sal7711Gen::Concerns::Models::Articulo
 
         included do
+
+          campofecha_localizado :created_at
+          campofecha_localizado :updated_at
+
           belongs_to :pais, foreign_key: 'pais_id', validate: true,
             class_name: 'Sip::Pais'
 

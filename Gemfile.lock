@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kreeti/kt-paperclip.git
-  revision: 379d3a8ca990ce91baef7498bd74c8680c181c3c
+  revision: 8e4a154ae0c7b8ca1e17daec768d6b211186ca63
   specs:
     kt-paperclip (7.0.0)
       activemodel (>= 4.2.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 56e7f6c2a63e7be772610d0ae73a5c641fa73550
+  revision: d5a6dba06c100c9ebe4aafa4776d9c195f6cb0a6
   branch: main
   specs:
     sal7711_gen (1.0.b4)
@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_web.git
-  revision: 3043c02d76f714ee1b197373bb0a36dd1bbd570a
+  revision: 8168f2fe3e2e07f9db5e91d28c1274965e479692
   branch: main
   specs:
     sal7711_web (1.0.a3)
@@ -29,7 +29,7 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 529a5ecc6b309a6474e7c1411f63fad59bdd11e9
+  revision: 2eb471d25c3b9c9ffb33f5258b6306cfd38e55d2
   branch: main
   specs:
     sip (2.0.b12)
@@ -177,7 +177,7 @@ GEM
       railties (>= 3.2.16)
     json (2.5.1)
     kgio (2.11.4)
-    loofah (2.11.0)
+    loofah (2.12.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -203,7 +203,7 @@ GEM
       ruby-progressbar
     msgpack (1.4.2)
     nio4r (2.5.8)
-    nokogiri (1.12.2)
+    nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     orm_adapter (0.5.0)
@@ -312,7 +312,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    will_paginate (3.3.0)
+    will_paginate (3.3.1)
     zeitwerk (2.4.2)
 
 PLATFORMS

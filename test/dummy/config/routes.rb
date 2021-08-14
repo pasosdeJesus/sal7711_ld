@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   rutarel = ENV.fetch('RUTA_RELATIVA', 'sal7711/')
+  puts "OJO En config/routes.rb rutarel=#{rutarel}"
   scope rutarel do 
     devise_scope :usuario do
       get 'sign_out' => 'devise/sessions#destroy'
@@ -23,14 +24,14 @@ Rails.application.routes.draw do
             path_names: { new: 'nueva', edit: 'edita' }
         end
       end
-
-      root 'sip/hogar#index'
     end
 
-    mount Sal7711Ld::Engine, at: rutarel, as: "sal7711_ld"
-    mount Sal7711Web::Engine, at: rutarel, as: "sal7711_web"
-    mount Sal7711Gen::Engine, at: rutarel, as: "sal7711_gen"
-    mount Sip::Engine, at: rutarel, as: "sip"
-
+    root to: 'sip/hogar#index'
   end
+
+  mount Sal7711Ld::Engine, at: rutarel, as: "sal7711_ld"
+  mount Sal7711Web::Engine, at: rutarel, as: "sal7711_web"
+  mount Sal7711Gen::Engine, at: rutarel, as: "sal7711_gen"
+  mount Sip::Engine, at: rutarel, as: "sip"
+
 end
